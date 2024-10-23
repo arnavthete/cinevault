@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #0f0f0f;
+    color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    color: #00ff99;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    color: #ff5e5e;
+    margin-bottom: 2rem;
+}
+
+.episode-buttons button {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    border: 1px solid #00ff99;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.episode-buttons button:hover {
+    background-color: #00ff99;
+    color: #0f0f0f;
+}
+
+.episode-buttons button:disabled {
+    background-color: #ff5e5e;
+    color: #0f0f0f;
+    cursor: not-allowed;
+    border: 1px solid #ff5e5e;
+}
