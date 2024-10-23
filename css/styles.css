@@ -55,3 +55,12 @@ header h2 {
     cursor: not-allowed;
     border: 1px solid #ff5e5e;
 }
+
+.banner-image {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+}
+
