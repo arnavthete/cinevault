@@ -7,7 +7,7 @@ function unlockEpisode8() {
     // Check if the entered password matches the base64 encoded password
     if (btoa(userPassword) === encodedPassword) {
         // Redirect to Episode 8 link if the password is correct
-        window.open("https://drive.google.com/file/d/1g2-B_vx69Ip3kMykIcZhBRnvk1ynjB-P/view?usp=drive_link", "_blank");
+        window.open("https://drive.google.com/u/0/uc?id=1QIesBZ_7-99ahulDw7lLwdMrgAwtGWoi&export=download", "_blank");
     } else {
         alert("Incorrect password. Please try again.");
     }
